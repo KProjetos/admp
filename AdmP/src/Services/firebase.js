@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -8,15 +7,16 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDLx2oxI08HdpZPPw8fAZ0kmjJGS7bArUo",
-  authDomain: "admp-36279.firebaseapp.com",
+  apiKey: `${import.meta.env.VITE_API_KEY}`,
+  authDomain: `${import.meta.env.VITE_AUTH_DOMAIN}`,
   projectId: "admp-36279",
-  storageBucket: "admp-36279.appspot.com",
-  messagingSenderId: "68222178574",
-  appId: "1:68222178574:web:fa287652294e97f356f35f",
+  storageBucket: `${import.meta.env.VITE_STORAGE_BUCKET}`,
+  messagingSenderId: `${import.meta.env.VITE_MESSAGING_SENDER_ID}`,
+  appId: `${import.meta.env.VITE_APP_ID}`,
   measurementId: "G-K17H58YTB9"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+// eslint-disable-next-line no-unused-vars
 const analytics = getAnalytics(app);
