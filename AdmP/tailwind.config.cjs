@@ -13,10 +13,11 @@ export default {
       "white": "#ffff",
       "black": "#000",
       "red": "#F70021",
+      "div-login": "rgba(255, 255, 255, 0.45)",
       
     },
     backgroundImage: {
-      "login": "url('/src/assets/images/gatoLogin.jpg')",
+      "login": "url('/src/assets/Login.png')",
       "none": "url('')",
       
     }
