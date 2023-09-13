@@ -1,5 +1,5 @@
 import { useState } from "react";
-import React from "react";
+
 
 function Header() {
   const [ modalIsOpen, setModalIsOpen ] = useState(false);
@@ -14,7 +14,7 @@ function Header() {
         <div className="direction-row">
           <div>
             <h1 className="text-shadow shadow-black text-[1.2em] text-white uppercase">
-              Projetos
+            <a href="/projetos"> Projetos</a>
             </h1>
           </div>
           {/* // TODO alterar o "foto" pela tag img e adicionar o src */}
