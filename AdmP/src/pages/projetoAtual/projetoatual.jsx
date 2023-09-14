@@ -10,7 +10,7 @@ function Novoprojeto() {
                      <h2 className="  text-2xl">Data de inicio:11/02/23</h2>
                 </div>
             </div>
-            <div className="border-y-1 shadow-lg rounded-lg">
+            <div className="border-y-1 shadow-lg rounded-lg overflow-x-auto">
                 <h1 className="mt-4 text-lg ml-2 mb-2">ETAPAS</h1>
                 <div className="snap-x w-[100%]">
                     <table className="snap-x w-[100%]">
