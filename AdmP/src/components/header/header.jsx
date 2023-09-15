@@ -30,7 +30,7 @@ function Header() {
 
         <a href="" className=""><p>Perfil</p></a>
         
-        <a href=""><p>Sair</p></a>
+        <a href="/"><p>Sair</p></a>
 
       </section>
     </>
